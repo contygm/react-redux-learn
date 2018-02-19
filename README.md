@@ -9,7 +9,7 @@ Description: Master the fundamentals of React and Redux with this tutorial as yo
 [Boiler Plate Repo](https://github.com/StephenGrider/ReduxSimpleStarter)
 
 ###### Notes:
-- Transpile ES6 into Browser friendly form
+- Boiler plate package transpiles ES6 into Browser friendly form
   - Webpack & Babel
   - ^^ spits out single file (ex. application.js)
   - can be safely run in Browser
@@ -17,3 +17,5 @@ Description: Master the fundamentals of React and Redux with this tutorial as yo
   - components/views: code snippets that produce html
     - collection of js functions that ultimately produces html
     - can nest components
+- ReactDOM: diff library
+  - use when we want to render directly to DOM
